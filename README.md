@@ -1,7 +1,8 @@
 ### Hi there 👋
 
 [![My GitHub Stats](https://github-readme-stats.vercel.app/api/?username=JosueGauthier&count_private=true&theme=tokyonight&showicons=true)]()
-[![My GitHub Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=JosueGauthier&langs_count=5&theme=tokyonight)]()
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JosueGauthier&layout=compact&count_private=true&theme=tokyonight&showicons=true)](https://github.com/JosueGauthier/github-readme-stats)
+
 
 
 <!--
