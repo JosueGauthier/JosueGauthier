@@ -1,9 +1,7 @@
 ### Hi there 👋
 
 <!--[![My GitHub Stats](https://github-readme-stats.vercel.app/api/?username=JosueGauthier&count_private=true&theme=tokyonight&showicons=true)]()-->
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JosueGauthier&count_private=true&theme=tokyonight&showicons=true)](https://github.com/JosueGauthier/github-readme-stats)
-
-
+<!--[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JosueGauthier&count_private=true&theme=tokyonight&showicons=true)](https://github.com/JosueGauthier/github-readme-stats) -->
 
 <!--
 **JosueGauthier/JosueGauthier** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
