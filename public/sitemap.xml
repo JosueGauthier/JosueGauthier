@@ -4,102 +4,103 @@
     
         
         <url>
-            <loc>https://example.org/projects/borgia/</loc>
+            <loc>http://localhost:42279/projects/borgia/</loc>
             <lastmod>2024-02-10T00:00:00+00:00</lastmod>
         </url>
         
     
         
         <url>
-            <loc>https://example.org/</loc>
+            <loc>http://localhost:42279/</loc>
             <lastmod>2024-02-10T00:00:00+00:00</lastmod>
         </url>
         
     
         
         <url>
-            <loc>https://example.org/projects/</loc>
+            <loc>http://localhost:42279/projects/</loc>
             <lastmod>2024-02-10T00:00:00+00:00</lastmod>
         </url>
         
     
         
         <url>
-            <loc>https://example.org/projects/speakers/</loc>
+            <loc>http://localhost:42279/projects/speakers/</loc>
             <lastmod>2023-12-10T00:00:00+00:00</lastmod>
         </url>
         
     
         
         <url>
-            <loc>https://example.org/projects/deepweed/</loc>
+            <loc>http://localhost:42279/projects/deepweed/</loc>
             <lastmod>2023-11-13T00:00:00+00:00</lastmod>
         </url>
         
     
         
         <url>
-            <loc>https://example.org/photos/salagou/</loc>
+            <loc>http://localhost:42279/photos/salagou/</loc>
             <lastmod>2023-08-05T00:00:00+00:00</lastmod>
         </url>
         
     
         
         <url>
-            <loc>https://example.org/photos/</loc>
+            <loc>http://localhost:42279/photos/</loc>
             <lastmod>2023-08-05T00:00:00+00:00</lastmod>
         </url>
         
     
         
         <url>
-            <loc>https://example.org/photos/toulouse-home/</loc>
+            <loc>http://localhost:42279/photos/toulouse-home/</loc>
             <lastmod>2023-03-05T00:00:00+00:00</lastmod>
         </url>
         
     
         
         <url>
-            <loc>https://example.org/projects/portfolio/</loc>
+            <loc>http://localhost:42279/projects/portfolio/</loc>
             <lastmod>2023-02-11T00:00:00+00:00</lastmod>
         </url>
         
     
         
         <url>
-            <loc>https://example.org/posts/</loc>
+            <loc>http://localhost:42279/posts/my-first-post/</loc>
             <lastmod>2022-11-20T09:03:20-08:00</lastmod>
         </url>
         
     
         
         <url>
-            <loc>https://example.org/photos/bourget/</loc>
+            <loc>http://localhost:42279/posts/</loc>
+            <lastmod>2022-11-20T09:03:20-08:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://localhost:42279/photos/bourget/</loc>
             <lastmod>2021-01-15T00:00:00+00:00</lastmod>
         </url>
         
     
         
         <url>
-            <loc>https://example.org/googlebb029a78adb7d6eb/</loc>
+            <loc>http://localhost:42279/about/</loc>
         </url>
         
     
         
         <url>
-            <loc>https://example.org/about/</loc>
+            <loc>http://localhost:42279/categories/</loc>
         </url>
         
     
         
         <url>
-            <loc>https://example.org/categories/</loc>
-        </url>
-        
-    
-        
-        <url>
-            <loc>https://example.org/tags/</loc>
+            <loc>http://localhost:42279/tags/</loc>
         </url>
         
     
