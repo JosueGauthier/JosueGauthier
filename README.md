@@ -1,4 +1,11 @@
-### Hi there 👋
+### Hi there 👋 
+
+Welcome on my GitHub, you'll find there projects I have work on.
+
+The most notable achievements are pinned below. 
+
+If you want to learn more go check out [my website](https://josuegauthier.github.io/JosueGauthier/)! 
+
 
 <!--[![My GitHub Stats](https://github-readme-stats.vercel.app/api/?username=JosueGauthier&count_private=true&theme=tokyonight&showicons=true)]()-->
 <!--[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JosueGauthier&count_private=true&theme=tokyonight&showicons=true)](https://github.com/JosueGauthier/github-readme-stats) -->
