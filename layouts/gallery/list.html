@@ -1,0 +1,29 @@
+{{ define "main" }}
+<h1>{{ .Page.Title }}</h1>
+{{ .Content }}
+<div class="image-grid">
+    {{ range sort .Data.Pages "Date" "desc" }}
+        {{ if and (isset .Params "image") .Params.image }}
+            <a href="{{ .Permalink }}" title="{{ .Title }}">
+            
+                <div class="img-container">
+                    <div class="img-sub-container">
+                        {{ $image := .Page.Resources.GetMatch .Params.image }}
+                        {{ with $image }}
+                        <!-- {{ $thumb := .Resize "400x" }} -->
+                        <!-- <img src="{{ $thumb.RelPermalink }}" alt="{{ .Title }}" class="img-responsive"> -->
+                        <img src="{{ $image.RelPermalink }}" alt="%s" class="img-responsive" width="{{ $image.Width }}">
+                        <!-- <img src="{{ $image.RelPermalink }}" alt="%s" class="img-responsive gallery-image" width="{{ $image.Width }}"> -->
+
+                        
+                        {{end}}
+                    </div>
+                    <div class="img-title-container">{{ .Title }}</div>
+                </div>
+            
+            </a>
+        {{ end }}
+    {{ end }}
+</div>
+{{ end }}
+

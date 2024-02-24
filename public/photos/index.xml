@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Photos on josuegauthier</title>
+    <link>http://localhost:1313/photos/</link>
+    <description>Recent content in Photos on josuegauthier</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 05 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/photos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lac du Salagou, France</title>
+      <link>http://localhost:1313/photos/salagou/</link>
+      <pubDate>Sat, 05 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/photos/salagou/</guid>
+      <description>Salagou Lake is the reservoir of the Salagou dam. It is located in the center of the Hérault department, on the Salagou river, a tributary of the Lergue river which flows into the Hérault. It reaches a depth of around 50 meters. The water level is 139 m above sea level.</description>
+    </item>
+    <item>
+      <title>Toulouse, France</title>
+      <link>http://localhost:1313/photos/toulouse-home/</link>
+      <pubDate>Sun, 05 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/photos/toulouse-home/</guid>
+      <description>Fairground brick, also called Toulouse brick, is a terracotta brick. It was used from the 11th century to the 19th century in the South of Toulouse, since replaced by materials that are easier to industrialize, such as hollow brick or concrete block.</description>
+    </item>
+    <item>
+      <title>Lac du Bourget, France</title>
+      <link>http://localhost:1313/photos/bourget/</link>
+      <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/photos/bourget/</guid>
+      <description>Lake Bourget is a lake located in France to the west of the Savoie department in the Auvergne-Rhône-Alpes region. A post-glacial lake in the Jura massif, Lake Bourget was formed at the end of the last Würm glaciation, around 19,000 years ago, by the retreat of the large Quaternary Alpine glacier.</description>
+    </item>
+  </channel>
+</rss>
