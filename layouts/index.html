@@ -11,13 +11,14 @@
     <div class="welcome-text-container">
 
         <h1>Welcome to my website!</h1>
-        
-        <p>Hello, I'm <a href="{{ .Permalink }}/about">Josue Gauthier</a>, a software and embedded systems engineer. On this website,
+
+        <p>Hello, I'm <a href="{{ .Permalink }}/about">Josue Gauthier</a>, a software and embedded systems engineer. On
+            this website,
             you'll find my
             projects and latest accomplishments mostly from my <a href="https://github.com/JosueGauthier">Github</a>.
         </p>
 
-        <p>If you have any questions or a project in mind, feel free to <a id="contact" href="">contact me!</a></p>
+        <p>If you have any questions or a project in mind, feel free to <a class="contact" href="">contact me!</a></p>
     </div>
 
 
@@ -30,11 +31,7 @@
     <div class="tagclouddiv orb"></div>
     <div class="tagcloudmask"></div>
     <div class="tagcloudline"></div>
-    <div class="tagcloudmask"></div>
-    <div class="tagcloudline"></div>
-    <div class="tagcloudmask"></div>
-    <div class="tagcloudline"></div>
-
+ 
 
 
 </div>
@@ -55,8 +52,6 @@
             <div class="img-sub-container">
                 {{ $image := .Page.Resources.GetMatch .Params.image }}
                 {{ with $image }}
-                <!-- {{ $thumb := .Resize "400x" }} -->
-                <!-- <img src="{{ $thumb.RelPermalink }}" alt="{{ .Title }}" class="img-responsive"> -->
                 <img src="{{ $image.RelPermalink }}" alt="%s" class="img-responsive" width="{{ $image.Width }}">
                 {{end}}
             </div>
@@ -80,8 +75,6 @@
             <div class="img-sub-container">
                 {{ $image := .Page.Resources.GetMatch .Params.image }}
                 {{ with $image }}
-                <!-- {{ $thumb := .Resize "400x" }} -->
-                <!-- <img src="{{ $thumb.RelPermalink }}" alt="{{ .Title }}" class="img-responsive"> -->
                 <img src="{{ $image.RelPermalink }}" alt="%s" class="img-responsive" width="{{ $image.Width }}">
                 {{end}}
             </div>
@@ -105,7 +98,7 @@
         'JavaScript', 'CSS', 'HTML',
         'C', 'C++', 'Vue.js',
         'Python', 'Git',
-        'Django', 'Flutter', 'PostgreSQL', "Linux", "STM32", "FPGA","Hardware"
+        'Django', 'Flutter', 'PostgreSQL', "Linux", "STM32", "FPGA", "Hardware"
     ];
 
     var tagCloud = TagCloud('.tagclouddiv', myTags, {
@@ -142,11 +135,7 @@
 <script src="{{ .Permalink }}js/MouseTrailer.js"></script>
 
 
-<script>
-    var encEmail = "am9zdWUuZ2F1dGhpZXIuMTRAZ21haWwuY29t";
-    const form = document.getElementById("contact");
-    form.setAttribute("href", "mailto:".concat(atob(encEmail)));
-</script>
+
 
 
 <!-- ABOUT

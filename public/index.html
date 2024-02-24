@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="https://example.org/hugo-theme-console/css/animate-4.1.1.min.css">
     <link rel="stylesheet" href="https://example.org/hugo-theme-console/css/console.css">
     <script src="https://kit.fontawesome.com/ce77d3b797.js" crossorigin="anonymous"></script>
+
+    
     
       <!--[if lt IE 9]>
           <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -61,7 +63,7 @@
 
           <div class="header-icons-container">
           
-            <a id="contact" href="" class="icon-link"><i class="social-icons fa-solid fa-envelope fa-lg"></i></a>
+            <a href="" class="icon-link contact"><i class="social-icons fa-solid fa-envelope fa-lg"></i></a>
           
             <a href="https://github.com/JosueGauthier" class="icon-link"><i
                 class="social-icons fa-brands fa-github fa-lg"></i></a>
@@ -91,13 +93,14 @@
     <div class="welcome-text-container">
 
         <h1>Welcome to my website!</h1>
-        
-        <p>Hello, I'm <a href="https://example.org//about">Josue Gauthier</a>, a software and embedded systems engineer. On this website,
+
+        <p>Hello, I'm <a href="https://example.org//about">Josue Gauthier</a>, a software and embedded systems engineer. On
+            this website,
             you'll find my
             projects and latest accomplishments mostly from my <a href="https://github.com/JosueGauthier">Github</a>.
         </p>
 
-        <p>If you have any questions or a project in mind, feel free to <a id="contact" href="">contact me!</a></p>
+        <p>If you have any questions or a project in mind, feel free to <a class="contact" href="">contact me!</a></p>
     </div>
 
 
@@ -110,11 +113,7 @@
     <div class="tagclouddiv orb"></div>
     <div class="tagcloudmask"></div>
     <div class="tagcloudline"></div>
-    <div class="tagcloudmask"></div>
-    <div class="tagcloudline"></div>
-    <div class="tagcloudmask"></div>
-    <div class="tagcloudline"></div>
-
+ 
 
 
 </div>
@@ -135,8 +134,6 @@
             <div class="img-sub-container">
                 
                 
-                
-                
                 <img src="/projects/borgia/borgiaapp2.png" alt="%s" class="img-responsive" width="7200">
                 
             </div>
@@ -151,8 +148,6 @@
             <div class="img-sub-container">
                 
                 
-                
-                
                 <img src="/projects/speakers/passive.jpg" alt="%s" class="img-responsive" width="1013">
                 
             </div>
@@ -165,8 +160,6 @@
 
         <div class="img-container">
             <div class="img-sub-container">
-                
-                
                 
                 
                 <img src="/projects/deepweed/deepweed.jpg" alt="%s" class="img-responsive" width="1360">
@@ -192,8 +185,6 @@
             <div class="img-sub-container">
                 
                 
-                
-                
                 <img src="/photos/salagou/salagou.jpg" alt="%s" class="img-responsive" width="2402">
                 
             </div>
@@ -208,8 +199,6 @@
             <div class="img-sub-container">
                 
                 
-                
-                
                 <img src="/photos/toulouse-home/toulouse-home.jpg" alt="%s" class="img-responsive" width="1013">
                 
             </div>
@@ -222,8 +211,6 @@
 
         <div class="img-container">
             <div class="img-sub-container">
-                
-                
                 
                 
                 <img src="/photos/bourget/bourget.jpg" alt="%s" class="img-responsive" width="1801">
@@ -249,7 +236,7 @@
         'JavaScript', 'CSS', 'HTML',
         'C', 'C++', 'Vue.js',
         'Python', 'Git',
-        'Django', 'Flutter', 'PostgreSQL', "Linux", "STM32", "FPGA","Hardware"
+        'Django', 'Flutter', 'PostgreSQL', "Linux", "STM32", "FPGA", "Hardware"
     ];
 
     var tagCloud = TagCloud('.tagclouddiv', myTags, {
@@ -286,11 +273,7 @@
 <script src="https://example.org/js/MouseTrailer.js"></script>
 
 
-<script>
-    var encEmail = "am9zdWUuZ2F1dGhpZXIuMTRAZ21haWwuY29t";
-    const form = document.getElementById("contact");
-    form.setAttribute("href", "mailto:".concat(atob(encEmail)));
-</script>
+
 
 
 
@@ -312,6 +295,8 @@
 
     <div class="social-icons-container">
 
+        <a href="" class="icon-link contact"><i class="social-icons fa-solid fa-envelope fa-lg"></i></a>
+
         
         <a href="https://github.com/JosueGauthier" class="icon-link"><i class="social-icons fa-brands fa-github fa-lg"></i></a>
         <a href="https://www.linkedin.com/in/josue-gauthier/" class="icon-link"><i class="social-icons fa-brands fa-linkedin fa-lg"></i></a>
@@ -330,4 +315,12 @@
 
     
   </body>
+
+  <script>
+    var encEmail = "am9zdWUuZ2F1dGhpZXIuMTRAZ21haWwuY29t";
+    let contactLinks = document.querySelectorAll(".contact");
+    contactLinks.forEach(link => {
+      link.setAttribute("href", "mailto:".concat(atob(encEmail)));
+    });
+  </script>
 </html>

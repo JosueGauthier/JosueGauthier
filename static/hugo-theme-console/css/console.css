@@ -432,11 +432,13 @@ figure {
 .tagcloudline{
     position: relative;
     margin: auto;
-    height: 3px;
+    height: 5px;
     width: 80%;
-    background: radial-gradient(var(--magenta-color),transparent);
-    opacity: 0.5;
-    border-radius: 200px;
+    /* background: radial-gradient(circle,var(--magenta-color),transparent); */
+    background-image: url('svg.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.2;
     z-index: 1;
     top: -250px;
     left: 0px;
