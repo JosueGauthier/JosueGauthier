@@ -1,10 +1,10 @@
 ### Hi there 👋 
 
-Welcome on my GitHub, you'll find there projects I have work on.
+Welcome to my GitHub, here you can find the projects I'm working on.
 
-The most notable achievements are pinned below. 
+The most notable ones are pinned below.
 
-If you want to learn more go check out [my website](https://josuegauthier.github.io/JosueGauthier/)! 
+If you want to know more, check out [my website](https://josuegauthier.github.io/JosueGauthier/)! 
 
 
 <!--[![My GitHub Stats](https://github-readme-stats.vercel.app/api/?username=JosueGauthier&count_private=true&theme=tokyonight&showicons=true)]()-->
