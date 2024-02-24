@@ -2,73 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>josuegauthier</title>
-    <link>http://localhost:42279/</link>
+    <link>https://example.org/</link>
     <description>Recent content on josuegauthier</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 10 Feb 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:42279/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Borgia</title>
-      <link>http://localhost:42279/projects/borgia/</link>
+      <link>https://example.org/projects/borgia/</link>
       <pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:42279/projects/borgia/</guid>
+      <guid>https://example.org/projects/borgia/</guid>
       <description>Django, Flutter, Dart, API, HTML, CSS, JavaScript&#xA;The Borgia App is a software to help you manage your student association. With it, you can sell products, organize events, keep track of your stocks, etc&amp;hellip; It will be your best ally to develop your possibilities for your student association.&#xA;On this project I worked on the API, Django backend, current web frontend to add features and a brand new mobile frontend made with Flutter.</description>
     </item>
     <item>
       <title>Speakers</title>
-      <link>http://localhost:42279/projects/speakers/</link>
+      <link>https://example.org/projects/speakers/</link>
       <pubDate>Sun, 10 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:42279/projects/speakers/</guid>
+      <guid>https://example.org/projects/speakers/</guid>
       <description>Coming soon&amp;hellip;</description>
     </item>
     <item>
       <title>DeepWeed</title>
-      <link>http://localhost:42279/projects/deepweed/</link>
+      <link>https://example.org/projects/deepweed/</link>
       <pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:42279/projects/deepweed/</guid>
+      <guid>https://example.org/projects/deepweed/</guid>
       <description>Coming soon&amp;hellip;</description>
     </item>
     <item>
       <title>Lac du Salagou, France</title>
-      <link>http://localhost:42279/photos/salagou/</link>
+      <link>https://example.org/photos/salagou/</link>
       <pubDate>Sat, 05 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:42279/photos/salagou/</guid>
+      <guid>https://example.org/photos/salagou/</guid>
       <description>Salagou Lake is the reservoir of the Salagou dam. It is located in the center of the Hérault department, on the Salagou river, a tributary of the Lergue river which flows into the Hérault. It reaches a depth of around 50 meters. The water level is 139 m above sea level.</description>
     </item>
     <item>
       <title>Toulouse, France</title>
-      <link>http://localhost:42279/photos/toulouse-home/</link>
+      <link>https://example.org/photos/toulouse-home/</link>
       <pubDate>Sun, 05 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:42279/photos/toulouse-home/</guid>
+      <guid>https://example.org/photos/toulouse-home/</guid>
       <description>Fairground brick, also called Toulouse brick, is a terracotta brick. It was used from the 11th century to the 19th century in the South of Toulouse, since replaced by materials that are easier to industrialize, such as hollow brick or concrete block.</description>
     </item>
     <item>
       <title>Portfolio</title>
-      <link>http://localhost:42279/projects/portfolio/</link>
+      <link>https://example.org/projects/portfolio/</link>
       <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:42279/projects/portfolio/</guid>
+      <guid>https://example.org/projects/portfolio/</guid>
       <description>Coming soon&amp;hellip;</description>
     </item>
     <item>
-      <title>My First Post</title>
-      <link>http://localhost:42279/posts/my-first-post/</link>
-      <pubDate>Sun, 20 Nov 2022 09:03:20 -0800</pubDate>
-      <guid>http://localhost:42279/posts/my-first-post/</guid>
-      <description>Introduction This is bold text, and this is emphasized text.&#xA;Visit the Hugo website!</description>
-    </item>
-    <item>
       <title>Lac du Bourget, France</title>
-      <link>http://localhost:42279/photos/bourget/</link>
+      <link>https://example.org/photos/bourget/</link>
       <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:42279/photos/bourget/</guid>
+      <guid>https://example.org/photos/bourget/</guid>
       <description>Lake Bourget is a lake located in France to the west of the Savoie department in the Auvergne-Rhône-Alpes region. A post-glacial lake in the Jura massif, Lake Bourget was formed at the end of the last Würm glaciation, around 19,000 years ago, by the retreat of the large Quaternary Alpine glacier.</description>
     </item>
     <item>
       <title>About me</title>
-      <link>http://localhost:42279/about/</link>
+      <link>https://example.org/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:42279/about/</guid>
+      <guid>https://example.org/about/</guid>
       <description>Hello, I&amp;rsquo;m Josue Gauthier, a software and embedded systems engineer. I&amp;rsquo;ve just graduated from my engineering school, Arts et Metiers, and I&amp;rsquo;m now looking for new projects.&#xA;On this page you&amp;rsquo;ll find a summary of my experience, education and skills. If you have any questions or a project in mind, don&amp;rsquo;t hesitate to contact me!&#xA;References available upon request.&#xA;Education Master of Science Arts et Metiers Engineering School | Angers, France | 2020 – 2023 Generalist engineer, specialized in Computer Science and Electronics Courses in Mechanical engineering, IT, Automatics, Electricity, Electronics, Mathematics and Industrial engineering.</description>
     </item>
   </channel>
