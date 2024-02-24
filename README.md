@@ -4,7 +4,7 @@ Welcome to my GitHub, here you can find the projects I'm working on.
 
 The most notable ones are pinned below.
 
-If you want to know more, check out [my website](https://josuegauthier.github.io/JosueGauthier/)! 
+If you want to know more, check out [my website!](https://josuegauthier.github.io/JosueGauthier/)
 
 
 <!--[![My GitHub Stats](https://github-readme-stats.vercel.app/api/?username=JosueGauthier&count_private=true&theme=tokyonight&showicons=true)]()-->
