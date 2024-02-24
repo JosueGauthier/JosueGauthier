@@ -357,22 +357,31 @@ figure {
     border-radius: 100px;
     margin-right: 20px;
     transition: filter 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-
-
-    
-
-
 }
 
 
 
 @keyframes rotateAnimation {
     0% {
-        filter: hue-rotate(260deg);
+        filter: hue-rotate(200deg);
+    }
+
+    50% {
+        filter: hue-rotate(330deg);
     }
 
     100% {
-        filter: hue-rotate(260deg);
+        filter: hue-rotate(200deg);
+    }
+}
+
+@keyframes rotateAnimationOut {
+    0% {
+        filter: hue-rotate(270deg);
+    }
+
+    100% {
+        filter: hue-rotate(360deg);
     }
 }
 
@@ -407,21 +416,17 @@ figure {
 }
 
 /* Animation pour le retour à l'état initial du filtre */
-
-
 /* Appliquer l'animation de retour lorsqu'on quitte le survol */
 .welcome-image-container:not(:hover) {
-    animation: rotateAnimation 2s ease;
+    animation: rotateAnimationOut 2s ease-in-out;
     /* Utilisez la durée souhaitée pour la transition */
 }
-
 
 
 .tagcloud-container{
     position: relative;
     /* background-color: aqua; */
 }
-
 
 
 .tagcloudline{
