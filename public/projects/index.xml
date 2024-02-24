@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on josuegauthier</title>
-    <link>http://localhost:1313/projects/</link>
+    <link>https://example.org/projects/</link>
     <description>Recent content in Projects on josuegauthier</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 10 Feb 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.org/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Borgia</title>
-      <link>http://localhost:1313/projects/borgia/</link>
+      <link>https://example.org/projects/borgia/</link>
       <pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/borgia/</guid>
+      <guid>https://example.org/projects/borgia/</guid>
       <description>Django, Flutter, Dart, API, HTML, CSS, JavaScript&#xA;The Borgia App is a software to help you manage your student association. With it, you can sell products, organize events, keep track of your stocks, etc&amp;hellip; It will be your best ally to develop your possibilities for your student association.&#xA;On this project I worked on the API, Django backend, current web frontend to add features and a brand new mobile frontend made with Flutter.</description>
     </item>
     <item>
       <title>Speakers</title>
-      <link>http://localhost:1313/projects/speakers/</link>
+      <link>https://example.org/projects/speakers/</link>
       <pubDate>Sun, 10 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/speakers/</guid>
+      <guid>https://example.org/projects/speakers/</guid>
       <description>Coming soon&amp;hellip;</description>
     </item>
     <item>
       <title>DeepWeed</title>
-      <link>http://localhost:1313/projects/deepweed/</link>
+      <link>https://example.org/projects/deepweed/</link>
       <pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/deepweed/</guid>
+      <guid>https://example.org/projects/deepweed/</guid>
       <description>Coming soon&amp;hellip;</description>
     </item>
     <item>
       <title>Portfolio</title>
-      <link>http://localhost:1313/projects/portfolio/</link>
+      <link>https://example.org/projects/portfolio/</link>
       <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/portfolio/</guid>
+      <guid>https://example.org/projects/portfolio/</guid>
       <description>Coming soon&amp;hellip;</description>
     </item>
   </channel>
