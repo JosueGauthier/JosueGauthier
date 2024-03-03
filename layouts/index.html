@@ -12,7 +12,8 @@
 
         <h1>Welcome to my website!</h1>
 
-        <p>Hello, I'm <a href="{{ .Site.BaseURL }}about">Josue Gauthier</a>, a software and embedded systems engineer. On
+        <p>Hello, I'm <a href="{{ .Site.BaseURL }}about">Josué Gauthier</a>, a software and embedded systems engineer.
+            On
             this website,
             you'll find my
             projects and latest accomplishments mostly from my <a href="https://github.com/JosueGauthier">Github</a>.
@@ -31,7 +32,7 @@
     <div class="tagclouddiv orb"></div>
     <div class="tagcloudmask"></div>
     <div class="tagcloudline"></div>
- 
+
 
 
 </div>
@@ -101,10 +102,32 @@
         'Django', 'Flutter', 'PostgreSQL', "Linux", "STM32", "FPGA", "Hardware"
     ];
 
+    // Obtenir la largeur ou la hauteur de l'écran en pixels
+    const screenWidth = window.innerWidth;
+    const screenHeight = window.innerHeight;
+
+    // Calculer la taille du rayon en fonction de la largeur ou de la hauteur de l'écran
+
+    if (screenWidth < 850) {
+
+        var my_radius = screenWidth * 0.23;
+
+
+    } else {
+
+        var my_radius = 260;
+
+
+    }
+
+
+
+    console.log(my_radius);
+
     var tagCloud = TagCloud('.tagclouddiv', myTags, {
 
         // radius in px
-        radius: 250,
+        radius: my_radius,
 
         // animation speed
         // slow, normal, fast

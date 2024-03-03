@@ -117,13 +117,13 @@ body::-webkit-scrollbar {
 /* Style de la poignée de la barre de défilement simulée */
 body::-webkit-scrollbar-thumb {
     background-color: #f1f1f1;
-    
+
     /* Couleur de la poignée */
 }
 
 /* Optionnel : Style de la piste de la barre de défilement simulée */
 body::-webkit-scrollbar-track {
-    
+
     /* Couleur de la piste */
     background: linear-gradient(to bottom, var(--magenta-color), var(--pink-color), var(--primary-color), var(--magenta-color));
 }
@@ -215,8 +215,8 @@ a {
 a:hover {
     /* text-decoration: underline; */
     /* background: none; */
-    -webkit-text-fill-color:white;
-    
+    -webkit-text-fill-color: white;
+
 }
 
 a::selection {
@@ -423,13 +423,13 @@ figure {
 }
 
 
-.tagcloud-container{
+.tagcloud-container {
     position: relative;
     /* background-color: aqua; */
 }
 
 
-.tagcloudline{
+.tagcloudline {
     position: relative;
     margin: auto;
     height: 5px;
@@ -440,7 +440,7 @@ figure {
     background-repeat: no-repeat;
     opacity: 0.2;
     z-index: 1;
-    top: -250px;
+    top: -280px;
     left: 0px;
 
 }
@@ -453,7 +453,7 @@ figure {
     background-color: #00000f;
     z-index: 2;
     width: 500px;
-    top: -242px;
+    top: -270px;
     margin: auto;
 }
 
@@ -471,7 +471,7 @@ figure {
 
 .tagcloud {
     font-family: var(--font-stack);
-    font-size: 20px;
+    font-size: 24px;
     margin: auto;
     width: 50%;
     /* background-color: #c52871; */
@@ -480,15 +480,15 @@ figure {
 .tagcloud--item {
 
     color: #ffffff;
-    
+
 
 
 }
 
 .orb {
     /* animation: spin 4s linear infinite; */
-    width: 500px;
-    height: 500px;
+    width: 35em;
+    height: 35em;
     /* margin: auto; */
     /* margin-top: 140px; */
     /* background-color: #b000b6; */
@@ -537,9 +537,50 @@ figure {
         margin-right: 20px;
     }
 
-    .logo {
-        /* padding: calc(var(--global-space) * 1) 0 calc(var(--global-space) * 1); */
+
+    .welcome-container {
+        flex-direction: column;
+
     }
+
+    .welcome-image-container {
+
+        width: 25vw;
+        height: 25vw;
+
+    }
+
+
+
+
+    .tagcloud {
+        width: 150vw;
+        height: 150vw;
+        font-size: 14px;
+
+    }
+
+    .orb {
+        width: 50vw;
+        height: 50vw;
+    }
+
+    .tagcloudline {
+        background-color: transparent;
+        width: 0px;
+        height: 0px;
+    }
+
+
+    .tagcloudmask {
+        background-color: transparent;
+        width: 0px;
+        height: 0px;
+    }
+
+
+
+
 
     figure {
         margin-top: 5px;
@@ -625,7 +666,7 @@ section {
     display: block;
     width: 100%;
     aspect-ratio: 1/1;
-    object-fit:cover;
+    object-fit: cover;
     transition: clip-path 0.3s ease;
     transition: filter 0.3s ease;
 }
@@ -690,18 +731,6 @@ section {
 
 }
 
-/* .terminal-prompt {
-    background-color: chocolate;
-    display: flex;
-    flex-direction: row;
-
-    justify-content: center;
-    align-items: center;
-    height: 20px;
-    padding: 0px;
-
-
-} */
 
 
 .header-icons-container {
